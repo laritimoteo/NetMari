@@ -56,6 +56,26 @@
    /* RESET
    /* ----------------------------- */
 
+   .h1,
+   .h2,
+   .h3{color: aliceblue;
+       line-height:40px ;
+   }
+
+   
+.h1{
+    font-size: var(--fs-1);
+}
+   
+
+.h2{
+    font-size: var(--fs-2);
+}
+   
+.h3{
+    font-size: var(--fs-6);
+}
+   
 
    *{
        margin: 0;
@@ -217,4 +237,42 @@ color:var(--citrine)
 
 .overlay.active{
     pointer-events: all;
+    }
+
+
+
+    
+   /* -----------------------------*/
+   /* BANNER
+   /* ----------------------------- */
+
+   .hero{
+       background: url('../img/Design\ sem\ nome\ \(1\).png') no-repeat;
+       background-size: cover;
+       height: 100vh;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       padding-block: var(--section-padding);
+   }
+
+   .hero-content{
+       margin-top: 400px;
+
+
+   }
+  .hero-subtitle{
+    color: var(--citrine);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-700);
+    margin-bottom: 20px;
 }
+.hero-title{
+    margin-bottom: 30px;
+}
+
+.hero-title > strong{
+    color: var(--citrine);
+
+}
+
